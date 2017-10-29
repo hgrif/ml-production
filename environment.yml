@@ -1,0 +1,29 @@
+name: ml-production
+channels:
+- conda-forge
+- defaults
+dependencies:
+- flake8
+- nb_conda
+- nb_conda_kernels
+- ipython
+- jedi
+- jupyter
+- jupyter_client
+- jupyter_console
+- jupyter_core
+- matplotlib
+- notebook
+- pandas
+- pip
+- pycodestyle
+- pytest
+- python=3.6.2
+- scikit-learn
+- scipy
+- seaborn
+- setuptools
+- statsmodels
+- pip:
+  - nb-conda
+  - nb-conda-kernels
