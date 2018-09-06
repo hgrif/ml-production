@@ -9,4 +9,7 @@ setup(
     author_email='henkgriffioen@godatadriven.com',
 
     packages=find_packages(include=['shelter']),
+    
+    setup_requires=["pandas","pytest-runner"],
+    tests_require=["pytest", "pytest-flake8", "pytest-cov"],
 )
