@@ -12,4 +12,7 @@ setup(
 
     setup_requires=["pandas","pytest-runner"],
     tests_require=["pytest", "pytest-cov"],
+    extras_require={
+        'develop': ['pre-commit>=1.0.0'],
+    }
 )
